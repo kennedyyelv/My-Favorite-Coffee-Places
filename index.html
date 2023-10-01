@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>My Favorite Coffee Places Near USF</title>
+    <link id="stylesheet-link" rel="stylesheet" type="text/css" href="main.css">
+    <button id="switch">Switch Style</button>
+   
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="ingredients.html">Lists</a></li>
+            <li><a href="https://www.starbucks.com/menu" target="_blank">Starbs Menu</a></li>
+            <li><a href="https://www.starbucks.com/menu/product/420/iced" target="_blank">Go-to Starbucks Drink</a></li>
+    </ul>
+        
+        </ul>
+    </nav>
+    <img class="coffeeGif" src="https://hips.hearstapps.com/cos.h-cdn.co/assets/16/28/480x288/gallery-1468593688-gilmore-girls-coffee.gif?resize=320:*" alt="coffee">
+    <div id="about">
+        <h1>About</h1>
+        <p>Studio Ghibli is a renowned Japanese animation studio with a rich history in the animation industry. Founded on June 15, 1985, by visionary directors Hayao Miyazaki and Isao Takahata, the studio has left an indelible mark on the world of animation. Their body of work is a testament to creativity and innovation, captivating audiences worldwide.</p>
+
+        <p>My journey into the enchanting world of Studio Ghibli began at the tender age of five when I first experienced the magic of "Kiki's Delivery Service." Since then, I've embarked on countless adventures alongside the studio's beloved characters and have witnessed the evolution of their storytelling artistry.</p>
+
+        <p>Studio Ghibli's films are more than just animated tales; they are profound narratives that explore the depths of human emotion, the wonders of imagination, and the beauty of the natural world. Each film, from the enchanting "Spirited Away" to the heartwarming "My Neighbor Totoro," carries a unique message and leaves an enduring impact on viewers of all ages.</p>
+
+        <p>As a devoted fan, I've had the privilege of immersing myself in the studio's diverse filmography, each piece a masterpiece in its own right. Studio Ghibli's dedication to storytelling excellence continues to inspire, making it a true treasure in the realm of animation.</p>
+
+        <article>
+            <h3>Studio Ghibli's Impact on Animation</h3>
+        <p>Studio Ghibli has left an indelible mark on the world of animation, redefining the art form with its unique storytelling and breathtaking visuals. With each film, the studio embarks on a creative journey that goes beyond entertainment, delving into the depths of human emotion and imagination.</p>
+
+        <p>What sets Studio Ghibli apart is its ability to explore complex and thought-provoking themes that resonate with viewers of all ages. These themes range from environmental conservation to the celebration of childhood innocence. Their films are not just animated stories; they are powerful vehicles for conveying profound messages.</p>
+
+        <p>A true testament to Studio Ghibli's prowess is the masterpiece, "Spirited Away." This film takes audiences on a mesmerizing journey through a mysterious spirit world, where young Chihiro must find her courage and inner strength to navigate the enigmatic and often perilous landscapes. "Spirited Away" stands as a shining example of the studio's ability to create magical and immersive worlds that leave a lasting impact.</p>
+
+        <p>For many, including myself, "My Neighbor Totoro" holds a special place in our hearts. This heartwarming tale follows the adventures of Satsuke and Mei as they befriend gentle forest spirits in their new rural home. "My Neighbor Totoro" captures the pure wonder of childhood and the enchantment of the natural world. It's a testament to Studio Ghibli's extraordinary talent for crafting stories that connect with audiences on a deep and emotional level.</p>
+
+        <p>Studio Ghibli's influence extends far beyond the world of animation. It has inspired generations of filmmakers and artists, sparking a global appreciation for the art of storytelling through animation. Their ability to create relatable characters and transport audiences to fantastical realms is a testament to the studio's enduring legacy and its profound impact on the world of cinema.</p>
+
+        </article>
+        
+    </div>
+
+    <footer>
+        &copy; 2023 Kennedy Yelvington. All rights reserved.
+    </footer>
+</body>
+<script>
+    // Function to toggle stylesheets
+    function toggleStylesheet() {
+        var link = document.getElementById('stylesheet-link');
+        var currentHref = link.getAttribute('href');
+        
+        // Check the current stylesheet and toggle to the alternate one
+        if (currentHref === 'main.css') {
+            link.setAttribute('href', 'alternate.css');
+        } else {
+            link.setAttribute('href', 'main.css');
+        }
+    }
+
+    // Add an event listener to the toggle button
+    var toggleButton = document.getElementById('style-toggle');
+    toggleButton.addEventListener('click', toggleStylesheet);
+</script>
+</html>
